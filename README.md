@@ -19,10 +19,18 @@ Erode and Dilate the image.
 ### Step5:
 End Program.
 
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
 ## Program:
-Developed By   : Shafeeq Ahamed. S
-Register Number: 212221230092
+Developed By   : **Shafeeq Ahamed. S**
+</br>
+
+Register Number: **212221230092**
 
 ### Import the necessary packages
 ```py
@@ -41,6 +49,7 @@ plt.imshow(img1,'gray')
 ```py
 kernel = cv2.getStructuringElement(cv2.MORPH_CROSS,(7,7))
 cv2.erode(img1, kernel)
+```
 ### Erode the image
 ```py
 image_erode1 = cv2.erode(img1,kernel)
@@ -51,6 +60,13 @@ plt.imshow(image_erode1, 'gray')
 image_dilate1 = cv2.dilate(img1, kernel)
 plt.imshow(image_dilate1, 'gray')
 ```
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
 ## Output:
 ### Display the input Image
